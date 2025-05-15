@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.h1{
+    text-align: center;
+}
+.card{
+    text-align: center;
+    margin-top: 10px;
+    margin: 0 auto;
+    max-width: 350px;
+    box-shadow: 0px 5px 8px 0 black;
+    transition: 0.3s;
+    font-size: 0;
+}
+.card:hover{
+    box-shadow: 0px 10px 20px 0 black;
+}
+.calc-display{
+
+
+}
+#display{
+    width: 335px;
+    height: 100px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 2px;
+}
+.calc-body{
+
+}
+.button{
+    width: 87px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #1f2326;
+    color: white;
+}
+.button-color{
+    background-color: blue;
+}
+.button-color2{
+    background-color: rgb(255, 196, 0);
+}
+.button:hover{
+    background-color: red;
+}
